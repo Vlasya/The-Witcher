@@ -1,6 +1,7 @@
 body{
 	background-color: #141218;
 	font-family: 'Roboto', sans-serif;
+	
 }
 .container{
 	max-width: 1140px;
@@ -10,7 +11,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 60px;
+	padding-top: 60px;
 }
 .menu-list{
 	margin-right: auto;
@@ -19,8 +20,6 @@ body{
 	margin-right: 68px;
 }
 .menu-link{
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
 	color: #FFFFFF;
@@ -32,4 +31,5 @@ body{
 }
 .social-link{
 	margin-left: 20px;
+	text-decoration: none;
 }
